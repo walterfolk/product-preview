@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 14px;
-    background:hsl(30, 38%, 92%);
+    background: hsl(30, 38%, 92%);
     font-family: 'Fraunces', serif, 'Montserrat', sans-serif;
 }
 
@@ -28,7 +28,7 @@ body {
     background-color: hsl(0, 0%, 100%);
     border-radius: .6rem;
     overflow: hidden;
-    
+
 }
 
 .box1 img {
@@ -36,20 +36,21 @@ body {
     display: inherit;
 }
 
-.box2{
+.box2 {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-  
+
 }
 
-.box2 p{
+.box2 p {
     font-family: 'Montserrat';
     color: hsl(228, 12%, 48%);
     font-weight: 500;
     line-height: 2em;
 }
+
 .box2 h1 {
     font-size: 2.2rem;
     margin-top: .3em;
@@ -58,7 +59,7 @@ body {
     color: hsl(212, 21%, 14%);
 }
 
-.box2 h2{
+.box2 h2 {
     display: inline;
     font-family: 'Fraunces';
     font-weight: 700;
@@ -102,7 +103,7 @@ button {
     transition: background-color .4s ease;
 }
 
-button:hover{
+button:hover {
     background-color: hsl(158, 41%, 19%);
 }
 
@@ -110,19 +111,19 @@ button i {
     padding-right: .5rem;
 }
 
-@media only screen and (max-width: 620px){
+@media only screen and (max-width: 620px) {
     .wrap {
         grid-template-columns: 1fr;
-        
-     }
-    
-     .box1 img {
+    }
+
+    .box1 img {
         max-height: 450px;
         width: 100%;
         object-fit: cover;
     }
+
     .box2 {
         display: block;
     }
-    
+
 }
